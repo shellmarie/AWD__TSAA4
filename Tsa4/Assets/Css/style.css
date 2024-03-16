@@ -1,0 +1,50 @@
+
+body {
+    background-color: burlywood; /* Adjust background color opacity */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding-top: 50px; /* Adjust spacing from the top */
+}
+
+/* Heading */
+h1 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Food buttons */
+.btn-primary {
+    margin-bottom: 10px;
+}
+
+/* Food info */
+.food-info {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: burlywood; /* Adjust background color opacity */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+/* Close button */
+.food-info button {
+    margin-top: 10px;
+}
+
+/* Food image */
+.food-info img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Set a maximum height for consistency */
+    margin-bottom: 10px;
+}
